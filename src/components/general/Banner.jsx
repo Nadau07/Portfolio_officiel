@@ -1,20 +1,25 @@
 import "./styles/banner.css";
-import { NavLink } from "react-router-dom";
+import iconNavBar from "../../images/utils/bars-solid.svg";
 
 
 function Banner(){
     return(
-        <div className="container_navigation">
-            <ul className="container_navigation_list">
-                <NavLink className="decoration-none" to={`/`}> <li>Accueil</li> </NavLink>
-            
-                
-              <NavLink className="decoration-none"  to={`/Profil`}><li>Profil</li></NavLink> 
+        <div className="fixed-banner">
+        <div className="navbar">
+        <img className="navbar-icon" src={iconNavBar} alt="menu"/>
+        <div className="navbar-menu display">
+            <ul>
+                <li>Accueil</li>
+                <li>A propos</li>
                 <li>Mon parcours</li>
                 <li>Mes réalisations</li>
                 <li>Contact</li>
             </ul>
         </div>
+        
+        </div>
+        </div>
+   
     )
 }
 
