@@ -1,0 +1,25 @@
+.presentation_container{
+    display:flex;
+    width: 100%;
+}
+
+.presentation_p{
+    width: 60%;
+    height: 200px;
+    padding: 20px;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentation_img{
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation_image{
+    width: 60%;
+
+    
+}

@@ -1,0 +1,45 @@
+.container_navigation {
+    padding: 10px;
+    background-color: black;
+  }
+  .container_navigation_list {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px; 
+    padding-right:40px;
+  }
+  
+  .container_navigation_list li {
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+   
+  }
+  .decoration-none{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container_navigation_list li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: gold;
+    transition: width 0.3s;
+  }
+  
+  .container_navigation_list li:hover::before {
+    width: 100%;
+  }
+  
+  .container_navigation_list li:active {
+    color: gold;
+  }
+  
