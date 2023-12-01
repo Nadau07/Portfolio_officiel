@@ -1,26 +1,37 @@
 import "./styles/banner.css";
 import iconNavBar from "../../images/utils/bars-solid.svg";
+import React, { useState } from 'react';
 
 
-function Banner(){
-    return(
-        <div className="fixed-banner">
-        <div className="navbar">
-        <img className="navbar-icon" src={iconNavBar} alt="menu"/>
-        <div className="navbar-menu display">
+function Banner() {
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const toggleMobileMenu = () => {
+      setMobileMenuOpen(!isMobileMenuOpen);
+    };
+    const mobileMenuClass = isMobileMenuOpen ? 'mobile-display' : '';
+
+
+    return (
+        <div className={`navbar ${mobileMenuClass}`}>
+          <p className="logo">LOGO</p>
+    
+          <div className="nav-links">
             <ul>
-                <li>Accueil</li>
-                <li>A propos</li>
-                <li>Mon parcours</li>
-                <li>Mes réalisations</li>
-                <li>Contact</li>
+              <li className="active">Accueil</li>
+              <li>Profil</li>
+              <li>Parcours</li>
+              <li>Réalisations</li>
+              <li>Contact</li>
             </ul>
+          </div>
+          <img
+            src={iconNavBar}
+            alt="menu"
+            className="menu-mobile"
+            onClick={toggleMobileMenu}
+          />
         </div>
-        
-        </div>
-        </div>
-   
-    )
-}
-
-export default Banner
+      );
+    }
+    
+    export default Banner;

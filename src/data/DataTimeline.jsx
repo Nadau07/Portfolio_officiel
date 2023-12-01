@@ -1,16 +1,12 @@
-import IconEtude from "../images/competences/graduation-cap-solid.svg";
-import  IconTravail from "../images/competences/business-time-solid.svg";
+import IconEtude from "../images/utils/graduation-cap-solid.svg";
+import  IconTravail from "../images/utils/business-time-solid.svg";
 export const DataTimelines = [
 
 {
-    id:"2023.1",
-    cover: IconEtude,
-    title:"Intégrateur Web",
-    description: "Formation de niveau BAC+2",
-    organisme:"OpenClassRooms",
-    date:"de Mars à Décembre 2023",
-    icon:"/images/competences/graduation-cap-solid.svg",
-    genre:"etude"
+    title:"12 /2023",
+    cardTitle:"Intégrateur Web",
+    cardSubtitle: "Formation de niveau BAC+2 avec l'organisme OpenClassRooms",
+    cardDetailedText:"OpenClassRooms",
 },
 
 {

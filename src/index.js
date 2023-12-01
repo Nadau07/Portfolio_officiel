@@ -1,25 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from "../src/pages/Home";
-import Profil from "../src/pages/Profil";
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {createRoot} from "react-dom/client"
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+const root = createRoot(document.getElementById('root'));
+
+// Utilisez root.render pour rendre votre application
 root.render(
   <React.StrictMode>
-  <Router>
-		<Routes>
-
-			<Route>
-			<Route path='/' element={<Home />} />
-      <Route path='/Profil' element={<Profil/>}/>
-			</Route>
-		</Routes>
-		</Router>
+    <Home />
   </React.StrictMode>
 );
 
+// Assurez-vous d'appeler reportWebVitals si nécessaire
 reportWebVitals();
