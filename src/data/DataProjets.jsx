@@ -1,4 +1,4 @@
-import ImgProjet from "../images/telechargement.jpg";
+import ImgProjet from "../images/projets/computer-1869306_1280.jpg";
 import PresentationProjet3 from "../images/projets/presentationOhMyFood.jpg";
 import Ohmyfood from "../images/projets/ohmyfoodaccueil.jpg";
 

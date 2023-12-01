@@ -1,0 +1,14 @@
+.slider-container{
+    width: 90%;
+    display:flex;
+    overflow-x: auto;
+}
+
+.projet {
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projet:hover {
+  transform: scale(1.1);
+}
