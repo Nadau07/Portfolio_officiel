@@ -1,13 +1,23 @@
 import "./styles/projets.css";
-
+import FicheProjet from "./FicheProjet";
+import{useState}from"react";
 //import FicheProjet from "./FicheProjet";
 
 
 function Projet(props) {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleVoirPlusClick = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   return (
     <div className="card">
-      <div className="card__thumb">
+      <div className="card__thumb" onClick={handleVoirPlusClick}>
         <img src={props.cover} alt="imgCover" className="card_image" />
       </div>
       <div className="card__body">
@@ -20,6 +30,14 @@ function Projet(props) {
           ))}
         </div>
       </div>
+      {showModal && (
+        <FicheProjet
+          onClose={handleCloseModal}
+          title={props.title}
+          description={props.description}
+          tags={props.tags}
+        />
+      )}
     </div>
   );
 }
