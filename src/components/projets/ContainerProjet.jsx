@@ -21,6 +21,9 @@ function ContainerProjet(props) {
       description={projet.description}
       tags={projet.tags}
       id={projet.id}   
+      coverPresentation={projet.coverPresentation}
+      objectif={projet.objectif}
+      scenario={projet.scenario}
     />
   ))}
     </div>

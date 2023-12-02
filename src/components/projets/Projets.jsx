@@ -36,6 +36,9 @@ function Projet(props) {
           title={props.title}
           description={props.description}
           tags={props.tags}
+          coverPresentation={props.coverPresentation}
+          objectif={props.objectif}
+          scenario={props.scenario}
         />
       )}
     </div>

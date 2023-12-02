@@ -1,4 +1,5 @@
 import "./styles/ficheProjet.css";
+import arrow from "../../images/utils/arrow-up-right-from-square-solid.svg";
 
 
 
@@ -10,13 +11,21 @@ function FicheProjet(props) {
 return (
   <div className="fiche_projet_modal">
        <button className="close_button" onClick={handleCloseClick}>
-      Fermer
+      X
     </button>
     {/* Contenu de la modale */}
+    <img className="modal_img"src={props.coverPresentation}alt="presentation"/>
     <h2>{props.title}</h2>
-    <p>{props.description}</p>
-    <p>{props.tags}</p>
-    {/* Autres informations du projet */}
+    <div className="modal_info">
+    <h3>Description: </h3><p>{props.description}</p>
+    <h3>Scénario: </h3><p>{props.scenario}</p>
+    <h3>Objectifs:</h3> <p>{props.objectif}</p>
+    </div>
+    <div className="modal_button">
+    <button>Lien GitHub <img src={arrow} alt="arrow"/></button>
+   <button>Lien vers le site  <img src={arrow} alt="arrow"/></button>
+    </div>
+
   </div>
 );
 }
