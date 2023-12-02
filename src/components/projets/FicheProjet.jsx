@@ -19,7 +19,11 @@ return (
     <div className="modal_info">
     <h3>Description: </h3><p>{props.description}</p>
     <h3>Scénario: </h3><p>{props.scenario}</p>
-    <h3>Objectifs:</h3> <p>{props.objectif}</p>
+    <h3>Objectifs:</h3>   <ul>
+          {props.objectif.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
     </div>
     <div className="modal_button">
     <button>Lien GitHub <img src={arrow} alt="arrow"/></button>
