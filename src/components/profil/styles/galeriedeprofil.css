@@ -49,3 +49,43 @@
     clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
     --_x: calc(-1*var(--g))
   }
+  .passions {
+    text-align: center;
+    padding-bottom: 10px;
+ }
+  .passions_title {
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ .passions img{
+  cursor: pointer;
+  width: 25px;
+  transition: width 0.3s;
+ }
+
+ .passions img:hover{
+width: 30px;
+ }
+  .lesplus_list {
+    height:200px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+
+  .visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    display: flex;
+ }
+  .hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+ }
+  

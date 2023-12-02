@@ -3,6 +3,7 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 import Modal from "./ModaleContact";
+import Roll from "react-reveal/Roll"
 
 
 function Contact() {
@@ -38,8 +39,8 @@ function Contact() {
   return (
     <div className="body_container_contact">
       <h2 className="body_container_contact_title" id="contact">Mon profil vous intéresse ? <br/>Contactez-moi ! </h2>
-
-      <form className="body_container_contact_form" ref={form} onSubmit={sendEmail}>
+      <Roll left>
+<form className="body_container_contact_form" ref={form} onSubmit={sendEmail}>
         <div>
           <label htmlFor="name">Votre nom:</label>
           <input
@@ -75,6 +76,9 @@ function Contact() {
         </div>
       
       </form>
+
+      </Roll>
+      
       <Modal isOpen={isModalOpen} onClose={closeModal} />
     </div>
   );

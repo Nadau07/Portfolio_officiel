@@ -23,7 +23,7 @@ export const DataProjets = [
     },
     {
         id:"2",
-        title:"Site de MME Carducci - Photographe",
+        title:"Site de MME Carducci",
         cover:ImgProjet,
         coverPresentation:NinaPhotographe,
         description: "Optimisez le référencement d'un site de photographe.",

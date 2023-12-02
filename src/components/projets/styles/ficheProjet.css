@@ -53,3 +53,12 @@ p{
   width: 12%;
 }
 
+.modal_info ul{
+  padding:0;
+}
+.modal_info li{
+  list-style-type:circle;
+  list-style-position:outside;
+  font-size: 14px;
+  padding-bottom:5px;
+}

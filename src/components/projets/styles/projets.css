@@ -22,6 +22,7 @@
 
 .card__thumb img {
     display: block;
+    height:250px;
     opacity: 1;
     transition: opacity 0.3s, transform 0.3s;
     transform: scale(1);

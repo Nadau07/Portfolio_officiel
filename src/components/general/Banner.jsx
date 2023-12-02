@@ -13,7 +13,7 @@ function Banner() {
 
     return (
         <div className={`navbar ${mobileMenuClass}`}>
-          <p className="logo">LOGO</p>
+          <p className="logo">PORTFOLIO</p>
     
           <div className="nav-links">
             <ul>

@@ -1,10 +1,16 @@
 import "./styles/presentation.css";
+import Bounce from "react-reveal/Bounce";
+import Flip from "react-reveal/Flip";
 //import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-2023110810410.png";
 
-function Presentation(){
-    return(
-<div className="presentation_container">
-             <h2>A propos :</h2>
+function Presentation() {
+  return (
+    <>
+      <div className="presentation_container">
+        <Flip right>
+          <h2>A propos :</h2>
+        </Flip>
+        <Bounce left>
           <p className="presentation_p">
             <p>Bonjour !</p>
             Je suis Noah, originaire de Lot-et-Garonne, et âgé de 32 ans.
@@ -15,7 +21,7 @@ function Presentation(){
             <br />
             Cette passion m'a poussé à suivre une formation d'intégrateur web..
             <br />
-            <br/>
+            <br />
             Je suis convaincu que le travail occupe une place centrale dans nos
             vies, et je crois profondément qu'être épanoui signifie consacrer
             son temps et son énergie à une carrière qui nous passionne.
@@ -31,14 +37,27 @@ function Presentation(){
             mes projets et en apprendre davantage sur mon parcours et mes
             compétences.
             <br />
-            <br/>
+            <br />
             Merci de votre visite !
-          </p>  
-          <div className="presentation_img">
+          </p>
+        </Bounce>
+      </div>
+      <div className="profil_plus">
+        <p>Je suis..</p>
+        <section class="animation">
+          <div class="first">
+            <div>Persévérant</div>
           </div>
-        
+          <div class="second">
+            <div>Patient</div>
           </div>
-    )
+          <div class="third">
+            <div>Curieux</div>
+          </div>
+        </section>
+      </div>
+    </>
+  );
 }
 
-export default Presentation
+export default Presentation;

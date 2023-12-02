@@ -1,6 +1,7 @@
 import "./styles/containerProjet.css"
 import Projet from "./Projets";
 import {DataProjets} from "../../data/DataProjets";
+import Jump from "react-reveal/Jump"
 
 /**
  *
@@ -12,7 +13,10 @@ function ContainerProjet(props) {
 
   return (
     <div className="container-projet">
-      <h2 className="container-projet-title">Mes réalisations:</h2>
+      <Jump>
+         <h2 className="container-projet-title">Mes réalisations:</h2>
+      </Jump>
+     
 {DataProjets.map((projet) => (
     <Projet
       key={projet.id}

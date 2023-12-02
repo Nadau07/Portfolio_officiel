@@ -6,6 +6,7 @@ import GaleriedeProfil from "../components/profil/GaleriedeProfil";
 import ContainerProjet from "../components/projets/ContainerProjet";
 import Competences from "../components/profil/Competences";
 import Contact from "../components/contact/Contact";
+import Footer from "../components/general/Footer";
 import "./style.css";
 
 function Home(){
@@ -18,6 +19,7 @@ function Home(){
         <Competences/>
         <ContainerProjet/>
         <Contact/>
+        <Footer/>
         </>
     )
 }
