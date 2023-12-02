@@ -1,10 +1,11 @@
 import "./styles/banner.css";
 import iconNavBar from "../../images/utils/bars-solid.svg";
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 
 function Banner() {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
     const toggleMobileMenu = () => {
       setMobileMenuOpen(!isMobileMenuOpen);
     };
@@ -25,11 +26,13 @@ function Banner() {
             </ul>
           </div>
           <img
-            src={iconNavBar}
-            alt="menu"
-            className="menu-mobile"
-            onClick={toggleMobileMenu}
-          />
+      src={iconNavBar}
+      alt="menu"
+      className="menu-mobile"
+      onClick={() => {
+        toggleMobileMenu();
+      }}
+    />
         </div>
       );
     }

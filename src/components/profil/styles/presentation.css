@@ -71,4 +71,43 @@
     90% {margin-top: 0;}
     100% {margin-top: 0;}
   }
+
+  .presentation_image{
+    display:none;
+  }
+
+  @media (min-width: 1024px){
+
+
+    .presentation_title{
+      text-align: center;
+      font-size:35px;
+      font-family: "Montserrat",sans-serif;
+    }
+  
+    .presentation_container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .presentation_p{
+      width: 50%;
+      margin-left:20px;
+    }
+    .presentation_p p{
+      font-size:20px;
+    }
+
+    .presentation_img{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+    .presentation_image{
+      display: block;
+      width: 70%;
+      border-radius:50% ;
+    }
+  }
   

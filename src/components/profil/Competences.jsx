@@ -41,7 +41,7 @@ function Competences() {
       <div className="slider">
         <div className="slide-track">
           {competencesData.map((competence, index) => {
-            console.log('Compétence', index + 1, 'Img :', competence.img);
+          
 
             return (
               <div className="slide" key={index}>

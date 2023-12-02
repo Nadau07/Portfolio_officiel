@@ -1,18 +1,19 @@
 import "./styles/presentation.css";
 import Bounce from "react-reveal/Bounce";
 import Flip from "react-reveal/Flip";
-//import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-2023110810410.png";
+import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-20231108103958.png";
 
 function Presentation() {
   return (
     <>
-      <div className="presentation_container">
-        <Flip right>
-          <h2>A propos :</h2>
+     <Flip right>
+          <h2 className="presentation_title">A propos :</h2>
         </Flip>
+      <div className="presentation_container">
+       
         <Bounce left>
-          <p className="presentation_p">
-            <p>Bonjour !</p>
+          <div className="presentation_p">
+            <p>Bonjour !
             Je suis Noah, originaire de Lot-et-Garonne, et âgé de 32 ans.
             <br />
             Mon aventure dans le monde de la conception web a débuté par une
@@ -39,19 +40,23 @@ function Presentation() {
             <br />
             <br />
             Merci de votre visite !
-          </p>
+            </p>
+          </div>
+          <div className="presentation_img">
+            <img src={ImgPortrait} alt="image_portrait"className="presentation_image"/>
+          </div>
         </Bounce>
       </div>
       <div className="profil_plus">
         <p>Je suis..</p>
-        <section class="animation">
-          <div class="first">
+        <section className="animation">
+          <div className="first">
             <div>Persévérant</div>
           </div>
-          <div class="second">
+          <div className="second">
             <div>Patient</div>
           </div>
-          <div class="third">
+          <div className="third">
             <div>Curieux</div>
           </div>
         </section>
