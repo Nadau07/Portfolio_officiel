@@ -14,12 +14,15 @@
     width: 100%
 }
 
+.slider_title{
+    width: 90%;
+}
+
 .slider::before, .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100px;
-    position: absolute;
-    width: 200px;
+    width: 90%;
     z-index: 2;
 }
 .slider::after {
@@ -32,11 +35,12 @@
     top: 0;
 }
 .slider .slide-track {
+    width: 90%;
     animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 14);
 }
 .slider .slide {
     height: 100px;
-    width: 250px;
+    width: 90%;
 }

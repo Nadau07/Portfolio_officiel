@@ -1,7 +1,6 @@
-import "./styles/slider.css"
+import "./styles/containerProjet.css"
 import Projet from "./Projets";
 import {DataProjets} from "../../data/DataProjets";
-import { useState } from "react";
 
 /**
  *
@@ -9,10 +8,11 @@ import { useState } from "react";
  *
  */
 
-function Slider(props) {
+function ContainerProjet(props) {
 
   return (
-    <div className="slider-container">
+    <div className="container-projet">
+      <h2 className="container-projet-title">Mes réalisations:</h2>
 {DataProjets.map((projet) => (
     <Projet
       key={projet.id}
@@ -27,7 +27,7 @@ function Slider(props) {
   );
 }
 
-export default Slider;
+export default ContainerProjet;
 
 /***{DataProjets.map((projet) => (
     <Projet

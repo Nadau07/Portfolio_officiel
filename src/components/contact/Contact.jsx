@@ -1,12 +1,12 @@
-import "../styles/contact.css";
+import "./styles/contact.css";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
-//import Modal from "../components/ModaleContact";
+import Modal from "./ModaleContact";
 
-function Contact({ isOpen, closeModal }) {
 
-  
+function Contact() {
+
   const form = useRef();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -32,49 +32,52 @@ function Contact({ isOpen, closeModal }) {
       );
     
   };
-  //const closeModal2 = () => {
-   // setIsModalOpen(false);
- // };
-  
-    return (
-      <div className={`body_container modal ${isOpen ? 'open' : 'closed'}`}>
-          <h2 className="body_container_contact_title" id="contact">Mon profil vous intéresse ? <br/>Contactez-moi ! </h2>
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+  return (
+    <div className="body_container_contact">
+      <h2 className="body_container_contact_title" id="contact">Mon profil vous intéresse ? <br/>Contactez-moi ! </h2>
 
-<form className="body_container_contact_form" ref={form} onSubmit={sendEmail}>
-  <div>
-    <label htmlFor="name">Votre nom:</label>
-    <input
-      type="text"
-      id="name"
-      name="user_name"
-      className="body_container_contact_form_input"
-    />
-  </div>
-  <div>
-    <label htmlFor="email">Votre email:</label>
-    <input
-      type="email"
-      id="email"
-      name="user_email"
-      className="body_container_contact_form_input"
-    />
-  </div>
+      <form className="body_container_contact_form" ref={form} onSubmit={sendEmail}>
+        <div>
+          <label htmlFor="name">Votre nom:</label>
+          <input
+            type="text"
+            id="name"
+            name="user_name"
+            className="body_container_contact_form_input"
+          />
+        </div>
+        <div>
+          <label htmlFor="email">Votre email:</label>
+          <input
+            type="email"
+            id="email"
+            name="user_email"
+            className="body_container_contact_form_input"
+          />
+        </div>
 
-  <div htmlFor="message">
-    Votre message:
-    <textarea
-      id="message"
-      name="message"
-      className="body_container_contact_form_input_message"
-    />
-  </div>
+        <div htmlFor="message">
+          Votre message:
+          <textarea
+            id="message"
+            name="message"
+            className="body_container_contact_form_input_message"
+          />
+        </div>
+        <div className="body_container_contact_button">
   <button type="submit" value="Send" className="body_container_contact_form_button">
-    ENVOYER
-  </button>
-</form>
-        <button onClick={closeModal}>Fermer</button>
-      </div>
-    );
-  }
-  
-  export default Contact;
+          ENVOYER
+        </button>
+
+        </div>
+      
+      </form>
+      <Modal isOpen={isModalOpen} onClose={closeModal} />
+    </div>
+  );
+}
+
+export default Contact;

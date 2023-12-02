@@ -1,0 +1,76 @@
+.body_container_contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.body_container_contact_form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.body_container_contact_form_input {
+    width: 95%;
+    display:flex;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.body_container_contact_form_input:focus {
+    color: black;
+    caret-color: red;
+    outline-color: red;
+    box-shadow: -3px -3px 15px red;
+}
+.body_container_contact_form_input_message{
+    width: 95%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 7px;
+    height: 150px;
+}
+.body_container_contact_form_input_message:focus {
+    color: black;
+    caret-color: red;
+    outline-color: red;
+    box-shadow: -3px -3px 15px red;
+}
+
+.body_container_contact_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_container_contact_form_button
+{
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    background-image:linear-gradient(to right, #ff0000, #ff6666, #ff9999);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    display: block;
+}
+.body_container_contact_form_button:hover {
+    width: 32%;
+    background-position: right center;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 0 30px #ccc;
+}
+.body_container_contact_button{
+    display:flex;
+    justify-content: center;
+}

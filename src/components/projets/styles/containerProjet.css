@@ -1,5 +1,5 @@
-.slider-container{
-    width: 100%;
+.container-projet{
+    width: 95%;
     display:flex;
     flex-direction: column;
     align-items: center;

@@ -1,4 +1,4 @@
-import "../styles/modalContact.css";
+import "./styles/modalContact.css";
 
 
 function Modal({ isOpen, onClose }) {
