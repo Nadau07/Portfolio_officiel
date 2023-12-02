@@ -6,6 +6,7 @@
     margin-bottom: 50px;
     overflow: hidden;
     font-family:"Montserrat",sans-serif;
+    position:relative;
 }
 
 .card:hover {
@@ -25,6 +26,7 @@
     transition: opacity 0.3s, transform 0.3s;
     transform: scale(1);
     width: 100%;
+    object-fit: cover;
 }
 
 .card:hover .card__thumb img {
@@ -62,4 +64,21 @@
     margin-top:20px;
     font-weight: 600;
     font-size:20px;
+  }
+
+  .card_button_left,
+  .card_button_right{
+    position:absolute;
+    width: 10%;
+    z-index:1;
+  }
+
+  .card_button_right{
+    right:0;
+    top:30%;
+  }
+
+  .card_button_left{
+    left:0;
+    top:30%;
   }

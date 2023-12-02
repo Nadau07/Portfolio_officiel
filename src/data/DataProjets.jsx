@@ -1,6 +1,9 @@
 import ImgProjet from "../images/projets/computer-1869306_1280.jpg";
 import PresentationProjet3 from "../images/projets/presentationOhMyFood.jpg";
 import Ohmyfood from "../images/projets/ohmyfoodaccueil.jpg";
+import Kasa from "../images/projets/kasa.png";
+import Booki from "../images/projets/booki.png";
+import ArgentBank from  "../images/projets/argentBank.png";
 
 
 export const DataProjets = [
@@ -8,7 +11,7 @@ export const DataProjets = [
     {
         id:"1",
         title:"Site Kasa",
-        cover:ImgProjet,
+        cover:Kasa,
         description: "Création d'une application web de location immobilière.",
         tags:["HTML", "CSS", "JavaScript", "React"]
     
@@ -35,7 +38,7 @@ export const DataProjets = [
     {
         id:"4",
         title:"Site BOOKI",
-        cover:ImgProjet,
+        cover:Booki,
         description: "Développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. ",
         tags:["HTML", "CSS"]
     },
@@ -43,7 +46,7 @@ export const DataProjets = [
     {
         id:"5",
         title:"Site Argent BANK",
-        cover:ImgProjet,
+        cover:ArgentBank,
         description: "Implémentez le front-end d'une application bancaire avec React",
         tags:["HTML", "CSS"]
     },

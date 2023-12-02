@@ -1,6 +1,7 @@
 import "./styles/slider.css"
 import Projet from "./Projets";
 import {DataProjets} from "../../data/DataProjets";
+import { useState } from "react";
 
 /**
  *
@@ -9,6 +10,7 @@ import {DataProjets} from "../../data/DataProjets";
  */
 
 function Slider(props) {
+
   return (
     <div className="slider-container">
 {DataProjets.map((projet) => (

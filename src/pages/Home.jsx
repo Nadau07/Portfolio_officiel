@@ -4,6 +4,7 @@ import Presentation from "../components/profil/Presentation";
 import GaleriedeProfil from "../components/profil/GaleriedeProfil";
 import Parcours from "../components/parcours/Parcours";
 import Slider from "../components/projets/Slider";
+import Competences from "../components/profil/Competences";
 import "./style.css";
 
 function Home(){
@@ -13,6 +14,7 @@ function Home(){
         <Header/>
         <Presentation/>
         <GaleriedeProfil/>
+        <Competences/>
         <Parcours/>
         <Slider/>
         </>

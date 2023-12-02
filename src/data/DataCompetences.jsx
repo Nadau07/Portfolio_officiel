@@ -26,22 +26,18 @@ export const competencesDev = [
     },
     {
         id: '4D',
-        img: IconHTML,
-    },
-    {
-        id: '5D',
         img: IconJS,
     },
     {
-        id: '6D',
+        id: '5D',
     img: IconReact,
 },
 {
-    id: '7D',
+    id: '6D',
     img: IconRedux,
 },
 {
-    id: '8D',
+    id: '7D',
 img: IconGitHub,
 }
   ];
