@@ -5,16 +5,21 @@ import "./styles/projets.css";
 function Projet(props) {
 
   return (
-    <figure className="card">
-     
-        <img src={props.cover} alt="imgCover" className="projet_image" />
-        <figcaption>
-  <div className="projet_info">
-          <div className="projet_info_title">{props.title}</div>
-
+    <div className="card">
+      <div className="card__thumb">
+        <img src={props.cover} alt="imgCover" className="card_image" />
+      </div>
+      <div className="card__body">
+        <div className="card__title">{props.title}</div>
+        <div className="card_tags">
+          {props.tags.map((tag, index) => (
+            <span key={index} className="tag">
+              {tag}
+            </span>
+          ))}
         </div>
-        </figcaption>
-    </figure>
+      </div>
+    </div>
   );
 }
 
