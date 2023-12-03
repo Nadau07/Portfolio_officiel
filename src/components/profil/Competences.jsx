@@ -10,7 +10,7 @@ function Competences() {
    <Bounce right>
 <h2 className="competences_title">Mes compétences:</h2>  
   <div className="competences">
-        <div className="competences_développement">
+        <div className="competences_developpement">
           <h3>Développement:</h3>
           <ul>
             <li>HTML</li>
@@ -22,7 +22,6 @@ function Competences() {
             <li>Referencement SEO</li>
           </ul>
         </div>
-        <span className="competences_separation"></span>
         <div className="competences_general">
           <h3>Général:</h3>
           <ul>

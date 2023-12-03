@@ -74,9 +74,6 @@ width: 30px;
     flex-direction: column;
     align-items: center;
  }
-
-
-
   .visible {
     display: block;
     opacity: 1;
@@ -89,3 +86,52 @@ width: 30px;
     transition: opacity 0.5s ease-in;
  }
   
+ @media (min-width: 1024px){
+
+  .galerieprofil{
+    width: 100%;
+  display: flex; 
+  margin-top:20px;
+  position:relative;
+  margin-bottom:20px;
+ }
+
+  .container_gallery{
+    width: 50%;
+    display: flex;
+  }
+  .passions{
+    width: 50%;
+  
+  }
+.passions_title{
+  padding-top:0;
+  font-size:30px;
+  margin-top:0;
+}
+.lesplus_list{
+  display:block;
+  width: 100%;
+  padding:5px;
+}
+
+.gallery > img{
+  width: 70%;
+}
+
+.gallery{
+  position:absolute;
+  left:44px;
+  top:-52px;
+}
+.lesplus_list{
+  margin-bottom:65px;
+}
+
+.lesplus_list p {
+  margin-top:20px;
+  font-size:20px
+}
+
+}
+ 

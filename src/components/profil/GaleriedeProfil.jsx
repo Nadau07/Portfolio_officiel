@@ -20,7 +20,9 @@ function GaleriedeProfil() {
     setArrowVisible(true);
   }
   return (
-    <>
+    <div className="galerieprofil">
+
+  
     <div className="container_gallery">
       <div className="gallery">
         <img src={portrait1} alt="portrait1" />
@@ -48,7 +50,7 @@ function GaleriedeProfil() {
 
         </div>
         </div>
-    </>
+    </div>
     
   );
 }

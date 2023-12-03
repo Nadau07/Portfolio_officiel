@@ -27,7 +27,7 @@ export const DataProjets = [
         cover:ImgProjet,
         coverPresentation:NinaPhotographe,
         description: "Optimisez le référencement d'un site de photographe.",
-        scenario: "Je propose mes services à MME Carducci, pour optimiser son site au niveau des images, du code et de sa structure . Grâce à cela, son site ne sera plus long au chargement,et elle gagnera en visibilité car elle aura un meilleur référencement (SEO).",
+        scenario: "Je propose à MME Carducci, d'optimiser son site au niveau des images, et du code . Grâce à cela, son site ne sera plus long au chargement,et elle gagnera en visibilité car elle aura un meilleur référencement (SEO).",
         objectif: ["Amélioration du chargement et de l'accessibilité du site", "Mise  en place du référencement local et SEO."],
         tags:["SEO", "CSS", "JavaScript"]
     
