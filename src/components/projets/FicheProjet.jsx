@@ -31,9 +31,13 @@ function FicheProjet(props) {
         </ul>
       </div>
       <div className="modal_button">
-        <button>
-          Lien GitHub <img src={arrow} alt="arrow" />
-        </button>
+      {props.githubLinks.map((githubLink, index) => (
+          <a key={index} href={githubLink} target="_blank" rel="noopener noreferrer">
+            <button>
+              Lien GitHub<img src={arrow} alt="arrow" />
+            </button>
+          </a>
+        ))}
         <button>
           Lien vers le site <img src={arrow} alt="arrow" />
         </button>

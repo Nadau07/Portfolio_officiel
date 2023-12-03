@@ -40,6 +40,7 @@ function Projet(props) {
             coverPresentation={props.coverPresentation}
             objectif={props.objectif}
             scenario={props.scenario}
+            githubLinks={props.githubLinks}
           />
         </div>
       )}
