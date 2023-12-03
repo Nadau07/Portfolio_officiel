@@ -7,6 +7,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.presentation_title{
+  font-size:24px;
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+}
+
 .presentation_p{
     width: 90%;
     font-weight: 300;

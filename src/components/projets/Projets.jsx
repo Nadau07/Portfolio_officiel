@@ -31,15 +31,17 @@ function Projet(props) {
         </div>
       </div>
       {showModal && (
-        <FicheProjet
-          onClose={handleCloseModal}
-          title={props.title}
-          description={props.description}
-          tags={props.tags}
-          coverPresentation={props.coverPresentation}
-          objectif={props.objectif}
-          scenario={props.scenario}
-        />
+        <div className="overlay">
+          <FicheProjet
+            onClose={handleCloseModal}
+            title={props.title}
+            description={props.description}
+            tags={props.tags}
+            coverPresentation={props.coverPresentation}
+            objectif={props.objectif}
+            scenario={props.scenario}
+          />
+        </div>
       )}
     </div>
   );

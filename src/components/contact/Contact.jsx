@@ -1,13 +1,11 @@
 import "./styles/contact.css";
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import Modal from "./ModaleContact";
-import Roll from "react-reveal/Roll"
-
+import Roll from "react-reveal/Roll";
 
 function Contact() {
-
   const form = useRef();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -24,23 +22,31 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message envoyé !")
+          console.log("message envoyé !");
           setIsModalOpen(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
-    
   };
   const closeModal = () => {
     setIsModalOpen(false);
   };
   return (
     <div className="body_container_contact">
-      <h2 className="body_container_contact_title" id="contact">Mon profil vous intéresse ? <br/>Contactez-moi ! </h2>
+      {" "}
       <Roll left>
-<form className="body_container_contact_form" ref={form} onSubmit={sendEmail}>
+        <h2 className="body_container_contact_title" id="contact">
+          Mon profil vous intéresse ? <br />
+          Contactez-moi !{" "}
+        </h2>
+      </Roll>
+      <form
+        className="body_container_contact_form"
+        ref={form}
+        onSubmit={sendEmail}
+      >
         <div>
           <label htmlFor="name">Votre nom:</label>
           <input
@@ -69,16 +75,15 @@ function Contact() {
           />
         </div>
         <div className="body_container_contact_button">
-  <button type="submit" value="Send" className="body_container_contact_form_button">
-          ENVOYER
-        </button>
-
+          <button
+            type="submit"
+            value="Send"
+            className="body_container_contact_form_button"
+          >
+            ENVOYER
+          </button>
         </div>
-      
       </form>
-
-      </Roll>
-      
       <Modal isOpen={isModalOpen} onClose={closeModal} />
     </div>
   );

@@ -9,7 +9,7 @@
 .gallery {
     --g: 8px;   /* the gap */
     --s: 400px; /* the size */
-    left:64px;
+    left:67px;
     display: grid;
     border-radius: 50%; 
     position:absolute;
@@ -52,9 +52,10 @@
   .passions {
     text-align: center;
     padding-bottom: 10px;
+    margin-bottom:20px;
  }
   .passions_title {
-    padding-top: 60px;
+    padding-top: 30px;
     font-family: "Montserrat", sans-serif;
  }
 

@@ -1,5 +1,5 @@
 .container-projet{
-    width: 95%;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,9 @@
 .container-projet-title{
     padding-bottom:30px;
     font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:0;
 }
 
 @media (min-width: 1024px){
