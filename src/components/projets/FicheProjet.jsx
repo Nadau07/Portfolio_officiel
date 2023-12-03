@@ -37,10 +37,7 @@ function FicheProjet(props) {
               Lien GitHub<img src={arrow} alt="arrow" />
             </button>
           </a>
-        ))}
-        <button>
-          Lien vers le site <img src={arrow} alt="arrow" />
-        </button>
+        ))} 
       </div>
     </div>
   );

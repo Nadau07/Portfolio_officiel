@@ -1,10 +1,10 @@
 
-import NinaPhotographe from "../images/projets/presentation-projets/nina_carducci_photographe.jpg"
-import Ohmyfood from "../images/projets/presentation-projets/ohmyfood.png";
-import Kasa from "../images/projets/presentation-projets/kasa.png";
-import Booki from "../images/projets/presentation-projets/booki.png";
-import ArgentBank from  "../images/projets/presentation-projets/argentBank.png";
-import Events724 from "../images/projets/presentation-projets/724events.jpg"
+import NinaPhotographe from "../images/projets/presentation-projets/nina_carducci_photographe.webp";
+import Ohmyfood from "../images/projets/presentation-projets/ohmyfood.webp";
+import Kasa from "../images/projets/presentation-projets/kasa.webp";
+import Booki from "../images/projets/presentation-projets/booki.webp";
+import ArgentBank from  "../images/projets/presentation-projets/argentBank.webp";
+import Events724 from "../images/projets/presentation-projets/724events.webp"
 
 import PresentationEvents from "../images/projets/ficheprojets/724-Events2.webp";
 import PresentationArgentBank from "../images/projets/ficheprojets/argentbank.webp";
@@ -25,6 +25,7 @@ export const DataProjets = [
         objectif: ["Mettre en œuvre des animations CSS","Développer une interface Web avec SASS", "Configurer la navigation entre les pages de l'application avec React Router."],
         tags:["HTML", "SASS", "JavaScript", "React"],
         githubLinks:["https://github.com/Nadau07/kasa"],
+        pageLinks:[""],
 
     
     },
@@ -38,7 +39,8 @@ export const DataProjets = [
         objectif: ["Amélioration du chargement et de l'accessibilité du site", "Mise  en place du référencement local et SEO."],
         tags:["SEO", "CSS", "JavaScript"],
         githubLinks:["https://github.com/Nadau07/Nina_carducci"],
-    
+        pageLinks:[""],
+
     
     },
     
@@ -52,7 +54,8 @@ export const DataProjets = [
         objectif:["Intégrer une maquette en mobile-first", "Mettre en œuvre des animation CSS "],
         tags:["HTML","SASS"],
         githubLinks:["https://github.com/Nadau07/OhMyFood"],
-    
+        pageLinks:["https://nadau07.github.io/OhMyFood/"],
+
     },
     {
         id:"4",
@@ -64,6 +67,8 @@ export const DataProjets = [
         objectif:["Implémenter une interface responsive avec HTML et CSS"],
         tags:["HTML", "CSS"],
         githubLinks:["https://github.com/Nadau07/BOOKI"],
+        pageLinks:[""],
+
     },
 
     {
@@ -76,6 +81,8 @@ export const DataProjets = [
         objectif:["Afficher les données du back end sur l'interface via des Appel API","Configurer des routes API pour la communication client/serveur", "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."],
         tags:["HTML", "CSS", "JavaScript", "React", "Redux"],
         githubLinks:["https://github.com/Nadau07/Argent-Bank"],
+        pageLinks:[""],
+
     },
     {
         id:"6",
@@ -87,6 +94,8 @@ export const DataProjets = [
          objectif:["Débugger un site web grâce aux Chromes DevTools", "Mise en place de test", "Rédaction d'un cahier de recette pour tester un site"],
         tags:["HTML", "CSS", "JavaScript", "Jest"],
         githubLinks:["https://github.com/Nadau07/724events"],
+        pageLinks:[""],
+
     }
     
     ]

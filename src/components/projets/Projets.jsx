@@ -41,6 +41,7 @@ function Projet(props) {
             objectif={props.objectif}
             scenario={props.scenario}
             githubLinks={props.githubLinks}
+            pageLinks={props.pageLinks}
           />
         </div>
       )}

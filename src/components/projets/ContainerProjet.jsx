@@ -28,6 +28,7 @@ function ContainerProjet(props) {
             objectif={projet.objectif}
             scenario={projet.scenario}
             githubLinks={projet.githubLinks}
+            pageLinks={projet.pageLinks}
           />
         ))}
       </div>

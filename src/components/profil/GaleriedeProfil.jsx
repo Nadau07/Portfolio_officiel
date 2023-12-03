@@ -1,8 +1,8 @@
 import "./styles/galeriedeprofil.css";
-import portrait1 from "../../images/profil/photoportrait1.jpg";
-import portrait2 from "../../images/profil/photoportrait2.jpg";
-import portrait3 from "../../images/profil/portrait3.jpg";
-import portrait4 from "../../images/profil/portrait4.jpg";
+import portrait1 from "../../images/profil/photoportrait1.webp";
+import portrait2 from "../../images/profil/photoportrait2.webp";
+import portrait3 from "../../images/profil/portrait3.webp";
+import portrait4 from "../../images/profil/portrait4.webp";
 import parIci from "../../images/utils/icons8-double-down.gif";
 import { useState } from "react";
 

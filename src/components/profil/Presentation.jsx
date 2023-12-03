@@ -1,7 +1,7 @@
 import "./styles/presentation.css";
 import Bounce from "react-reveal/Bounce";
 import Flip from "react-reveal/Flip";
-import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-20231108103958.png";
+import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-20231108103958.webp";
 
 function Presentation() {
   return (
