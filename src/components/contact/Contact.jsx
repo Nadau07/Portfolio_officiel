@@ -66,8 +66,8 @@ function Contact() {
           />
         </div>
 
-        <div htmlFor="message">
-          Votre message:
+        <div>
+        <label htmlFor="message">Votre message:</label>
           <textarea
             id="message"
             name="message"
