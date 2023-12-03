@@ -2,3 +2,19 @@
     width: 100%;
     background-color: black;
 }
+
+.footer_p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color:white;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+@media (min-width: 1024px){
+    .footer_p{
+        padding-bottom:30px;
+        padding-top:30px;
+        font-size:18px;
+    }
+}
