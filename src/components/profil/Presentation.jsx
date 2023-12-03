@@ -7,7 +7,7 @@ function Presentation() {
   return (
     <>
      <Flip right>
-          <h2 className="presentation_title">A propos :</h2>
+          <h2 className="presentation_title" id="a-propos">A propos :</h2>
         </Flip>
       <div className="presentation_container">
        

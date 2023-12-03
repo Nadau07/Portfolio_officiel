@@ -12,7 +12,7 @@ function Header() {
     const [isLinkedInHovered, setLinkedInHovered] = useState(false);
 
   return (
-    <div className="container_header">
+    <div className="container_header" id="accueil">
       <img
         className="container_header_image "
         src={HeaderImg}
@@ -45,12 +45,8 @@ function Header() {
         </div>
         
       </div>
-      <div className="scroll-downs">
-  <div className="mousey">
-    <div className="scroller"></div>
-  </div>
+
 </div>
-    </div>
   );
 }
 

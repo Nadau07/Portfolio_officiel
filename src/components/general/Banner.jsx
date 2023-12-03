@@ -9,10 +9,10 @@ function Banner() {
 
       <div className="navbar_list">
         <ul>
-          <li>Accueil</li>
-          <li>Profil</li>
-          <li>Réalisations</li>
-          <li>Contact</li>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">Profil</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li> <a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>

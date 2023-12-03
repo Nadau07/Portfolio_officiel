@@ -74,7 +74,7 @@ p{
     100% { transform: translateY(15px); opacity: 0;}
   }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1024px){
 
 
     .header_paragraphe{
@@ -103,15 +103,5 @@ p{
     .icons{
         width: 35px;
         padding-right:20px;
-    }
-
-    .scroll-downs{
-        width :34px;
-        height: 55px;
-    }
-
-    .mousey{
-        padding: 10px 15px;
-        height: 35px;
     }
 }
