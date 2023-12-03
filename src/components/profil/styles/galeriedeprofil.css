@@ -157,6 +157,6 @@ width: 30px;
 
 @media screen and (min-width: 1390px){
   .gallery > img{
-    width: 50%;
+    width: 40%;
   }
 }
