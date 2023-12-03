@@ -74,7 +74,17 @@
     display:flex;
     justify-content: center;
 }
-@media (min-width: 1024px){
+
+@media screen and (min-width: 768px){
+    .body_container_contact_form{
+            width: 60%;
+    }
+
+    .body_container_contact_form_button{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1024px){
     .body_container_contact{
         width: 100%;
     }

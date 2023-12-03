@@ -39,40 +39,17 @@ p{
     width: 20px;
     cursor:pointer;
 }
+@media screen and (min-width: 768px){
 
-.scroll-downs {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    margin: auto;
-    width :auto;
-    height:auto;
-  }
+    .header_paragraphe p{
+        font-size: 20px;
+    }
 
-.mousey {
-    width: 3px;
-    padding: 3px 8px;
-    height: 25px;
-    border: 2px solid red;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-  }
-  .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: red;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-    0% { opacity: 0; }
-    10% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(15px); opacity: 0;}
-  }
+
+    .icons{
+        width: 30px;
+    }
+}
 
 @media screen and (min-width:1024px){
 

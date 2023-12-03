@@ -76,7 +76,20 @@
     }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 768px){
+
+  .navbar_list ul{
+    gap:30px;
+  }
+  .navbar_list li{
+    font-size:18px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1024px){
 
   .navbar_container{
     width: 100%;

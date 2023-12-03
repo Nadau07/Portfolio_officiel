@@ -82,7 +82,23 @@
     display:none;
   }
 
-  @media (min-width: 1024px){
+  @media screen and (min-width: 768px){
+
+    .presentation_title{
+      font-size:24px;
+    }
+
+    .presentation_p p{
+      font-size:18px;
+     
+    }
+
+    .profil_plus p{
+      font-size:18px;
+    }
+  }
+
+  @media screen and (min-width: 1024px){
 
 
     .presentation_title{

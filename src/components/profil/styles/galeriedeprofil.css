@@ -86,8 +86,27 @@ width: 30px;
     opacity: 0;
     transition: opacity 0.5s ease-in;
  }
+
+ @media screen and (min-width: 768px){
+
+  .gallery{
+    left:240px;
+  }
+
+  .gallery > img{
+    width: 290px;
+  }
+
+  .passions_title{
+    font-size:20px;
+  }
+
+  .lesplus_list p {
+    font-size: 18px;
+  }
+ }
   
- @media (min-width: 1024px){
+ @media screen and (min-width: 1024px){
 
   .galerieprofil{
     width: 100%;
