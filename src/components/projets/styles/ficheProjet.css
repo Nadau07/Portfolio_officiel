@@ -8,6 +8,7 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   width: 85%;
+  cursor: auto;
 }
 .close_button {
   position: absolute;
@@ -35,7 +36,8 @@ p{
   display:flex;
   justify-content: flex-end;
   gap:10px;
-  position:relative
+  position:relative;
+
 }
 
 .modal_button button{
@@ -46,6 +48,7 @@ p{
   border-radius: 10px;
   border: 1px solid transparent;
   color:white;
+  cursor: pointer;
 }
 
 .modal_button img{
