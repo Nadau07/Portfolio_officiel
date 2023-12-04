@@ -16,6 +16,10 @@
   color: red;
 }
 
+.navbar_logo{
+  width: 20%;
+}
+
 .navbar_list {
   width: 80%;
   position: relative;

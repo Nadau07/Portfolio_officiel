@@ -12,7 +12,7 @@ import ImgPortrait from "../../images/profil/photo_portfolio-fotor-bg-remover-20
 function Presentation() {
   return (
     <>
-      <Flip right>
+     <Flip right>
         <h2 className="presentation_title" id="a-propos">
         À propos :
         </h2>
@@ -74,7 +74,11 @@ function Presentation() {
           </div>
         </section>
       </div>
+   
+    
+    
     </>
+     
   );
 }
 

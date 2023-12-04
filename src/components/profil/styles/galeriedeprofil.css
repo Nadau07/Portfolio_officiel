@@ -1,162 +1,185 @@
-
-
-.container_gallery{
+.container_gallery {
   width: 100%;
   height: 300px;
-  position:relative;
+  position: relative;
 }
 
 .gallery {
-    --g: 8px;   /* the gap */
-    --s: 400px; /* the size */
-    left:67px;
-    display: grid;
-    border-radius: 50%; 
-    position:absolute;
-  }
-  .gallery > img {
-    grid-area: 1/1;
-    width: 250px;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: translate(var(--_x,0),var(--_y,0));
-    cursor: pointer;
-    z-index: 0;
-    transition: .3s, z-index 0s .3s;
-  }
-  .gallery img:hover {
-    --_i: 1;
-    z-index: 1;
-    transition: transform .2s, clip-path .3s .2s, z-index 0s;
-  }
-  .gallery:hover img {
-    transform: translate(0,0);
-  }
-  .gallery > img:nth-child(1) {
-    clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
-    --_y: calc(-1*var(--g))
-  }
-  .gallery > img:nth-child(2) {
-    clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
-    --_x: var(--g)
-  }
-  .gallery > img:nth-child(3) {
-    clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
-    --_y: var(--g)
-  }
-  .gallery > img:nth-child(4) {
-    clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
-    --_x: calc(-1*var(--g))
-  }
-  .passions {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom:20px;
- }
-  .passions_title {
-    padding-top: 30px;
-    font-family: "Montserrat", sans-serif;
- }
+  --g: 8px; /* the gap */
+  --s: 400px; /* the size */
+  left: 67px;
+  display: grid;
+  border-radius: 50%;
+  position: absolute;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(var(--_x, 0), var(--_y, 0));
+  cursor: pointer;
+  z-index: 0;
+  transition: 0.3s, z-index 0s 0.3s;
+}
+.gallery img:hover {
+  --_i: 1;
+  z-index: 1;
+  transition: transform 0.2s, clip-path 0.3s 0.2s, z-index 0s;
+}
+.gallery:hover img {
+  transform: translate(0, 0);
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(
+    50% 50%,
+    calc(50% * var(--_i, 0)) calc(120% * var(--_i, 0)),
+    0 calc(100% * var(--_i, 0)),
+    0 0,
+    100% 0,
+    100% calc(100% * var(--_i, 0)),
+    calc(100% - 50% * var(--_i, 0)) calc(120% * var(--_i, 0))
+  );
+  --_y: calc(-1 * var(--g));
+}
+.gallery > img:nth-child(2) {
+  clip-path: polygon(
+    50% 50%,
+    calc(100% - 120% * var(--_i, 0)) calc(50% * var(--_i, 0)),
+    calc(100% - 100% * var(--_i, 0)) 0,
+    100% 0,
+    100% 100%,
+    calc(100% - 100% * var(--_i, 0)) 100%,
+    calc(100% - 120% * var(--_i, 0)) calc(100% - 50% * var(--_i, 0))
+  );
+  --_x: var(--g);
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(
+    50% 50%,
+    calc(100% - 50% * var(--_i, 0)) calc(100% - 120% * var(--_i, 0)),
+    100% calc(100% - 120% * var(--_i, 0)),
+    100% 100%,
+    0 100%,
+    0 calc(100% - 100% * var(--_i, 0)),
+    calc(50% * var(--_i, 0)) calc(100% - 120% * var(--_i, 0))
+  );
+  --_y: var(--g);
+}
+.gallery > img:nth-child(4) {
+  clip-path: polygon(
+    50% 50%,
+    calc(120% * var(--_i, 0)) calc(50% * var(--_i, 0)),
+    calc(100% * var(--_i, 0)) 0,
+    0 0,
+    0 100%,
+    calc(100% * var(--_i, 0)) 100%,
+    calc(120% * var(--_i, 0)) calc(100% - 50% * var(--_i, 0))
+  );
+  --_x: calc(-1 * var(--g));
+}
+.passions {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.passions_title {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
 
- .passions img{
+.passions img {
   cursor: pointer;
   width: 25px;
   transition: width 0.3s;
- }
+}
 
- .passions img:hover{
-width: 30px;
- }
-  .lesplus_list {
-    height:200px;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-  .visible {
-    display: block;
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-    display: flex;
- }
-  .hidden {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
- }
+.passions img:hover {
+  width: 30px;
+}
+.lesplus_list {
+  height: 200px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  display: flex;
+}
+.hidden {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
 
- @media screen and (min-width: 768px){
-
-  .gallery{
-    left:240px;
+@media screen and (min-width: 768px) {
+  .gallery {
+    left: 240px;
   }
 
-  .gallery > img{
+  .gallery > img {
     width: 290px;
   }
 
-  .passions_title{
-    font-size:20px;
+  .passions_title {
+    font-size: 20px;
   }
 
   .lesplus_list p {
     font-size: 18px;
   }
- }
-  
- @media screen and (min-width: 1024px){
+}
 
-  .galerieprofil{
+@media screen and (min-width: 1024px) {
+  .galerieprofil {
     width: 100%;
-  display: flex; 
-  margin-top:20px;
-  position:relative;
-  margin-bottom:20px;
- }
-
-  .container_gallery{
-    width: 50%;
     display: flex;
   }
-  .passions{
+
+  .container_gallery {
     width: 50%;
-  
   }
-.passions_title{
-  padding-top:0;
-  font-size:30px;
-  margin-top:0;
-}
-.lesplus_list{
-  display:block;
-  width: 100%;
-  padding:5px;
+
+  .passions {
+    width: 40%;
+  }
+  .passions_title {
+    padding-top: 0;
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .lesplus_list {
+    display: block;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .gallery > img {
+    width: 70%;
+  }
+
+  .gallery {
+    position: absolute;
+    left: 44px;
+    top: -52px;
+  }
+  .lesplus_list {
+    margin-bottom: 65px;
+  }
+
+  .lesplus_list p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
 }
 
-.gallery > img{
-  width: 70%;
-}
-
-.gallery{
-  position:absolute;
-  left:44px;
-  top:-52px;
-}
-.lesplus_list{
-  margin-bottom:65px;
-}
-
-.lesplus_list p {
-  margin-top:20px;
-  font-size:20px
-}
-
-}
-
-@media screen and (min-width: 1390px){
-  .gallery > img{
+@media screen and (min-width: 1390px) {
+  .gallery > img {
     width: 40%;
   }
 }

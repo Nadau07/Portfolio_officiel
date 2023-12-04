@@ -18,6 +18,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .footer{
+    width: 100%;
+  }
+  
   .footer_p {
     padding-bottom: 30px;
     padding-top: 30px;

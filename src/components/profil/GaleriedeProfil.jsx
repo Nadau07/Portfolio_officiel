@@ -12,7 +12,6 @@ import { useState } from "react";
  *
  */
 
-
 function GaleriedeProfil() {
   const [listVisible, setListVisible] = useState(false);
   const [arrowVisible, setArrowVisible] = useState(true);
@@ -56,9 +55,7 @@ function GaleriedeProfil() {
           />
         )}
         <div className={`lesplus_list ${listVisible ? "visible" : "hidden"}`}>
-          <p>
-            Je suis japonophile et je prends des cours de langue Japonaise.
-          </p>
+          <p>Je suis japonophile et je prends des cours de langue Japonaise.</p>
           <p>
             Amoureux des animaux, ma passion réside dans le bien-être de nos
             compagnons à quatre pattes.
