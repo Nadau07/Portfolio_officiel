@@ -82,6 +82,23 @@ h3{
     text-align: center;
 }
 
+.container_button_cv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.buttonCV{
+    background-color: white;
+    padding:10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color:red;
+    font-family:"Montserrat", sans-serif;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 768px){
     .competences_title{
         font-size:24px;
@@ -95,6 +112,10 @@ li{
     font-size:18px;
     text-align: center;
 
+}
+
+.buttonCV{
+    font-size:18px;
 }
 
 }
@@ -135,4 +156,9 @@ li{
         font-size:20px;
         text-align: center;
     }
+
+  .buttonCV{
+    font-size:18px;
+    
+  }
 }

@@ -12,14 +12,10 @@
 }
 .close_button {
   position: absolute;
-  color: white;
-  border-radius: 50%;
   top: 10px;
   right: 10px;
-  background-color: red;
-  padding: 5px 10px;
-  border: none;
   cursor: pointer;
+  width: 6%;
 }
 
 .modal_img {
@@ -42,9 +38,9 @@ p {
 .modal_button button {
   margin-top: 15px;
   font-family: "Montserrat", sans-serif;
-  padding: 5px;
+  padding: 10px;
   background-color: red;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid transparent;
   color: white;
   cursor: pointer;
@@ -63,6 +59,26 @@ p {
   list-style-position: outside;
   font-size: 14px;
   padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px){
+
+  .close_button{
+    width: 4%;
+  }
+
+  h2{
+    font-size: 25px;
+text-align: center;
+  }
+  
+  .modal_info p{
+ text-align: center;
+  }
+.modal_info li {
+  list-style: none;
+}
+
 }
 
 @media (min-width: 1024px) {
@@ -106,5 +122,11 @@ p {
     display: flex;
     margin-top: 0;
     flex-direction: column;
+  }
+  .modal_button button{
+    padding:10px;
+  }
+  .close_button{
+    width: 3%;
   }
 }

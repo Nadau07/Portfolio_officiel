@@ -1,5 +1,6 @@
 import "./styles/ficheProjet.css";
 import arrow from "../../images/utils/arrow-up-right-from-square-solid.svg";
+import close from "../../images/utils/circle-xmark-regular.svg";
 
 /**
  *
@@ -14,9 +15,9 @@ function FicheProjet(props) {
   };
   return (
     <div className="fiche_projet_modal">
-      <button className="close_button" onClick={handleCloseClick}>
-        X
-      </button>
+      
+        <img src={close} alt="fermeture" className="close_button" onClick={handleCloseClick}/>
+  
       {/* Contenu de la modale */}
       <img
         className="modal_img"

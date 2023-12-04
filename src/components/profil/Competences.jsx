@@ -1,6 +1,7 @@
 import "./styles/competences.css";
 import { competencesDev, competencesGeneral } from "../../data/DataCompetences";
 import Bounce from "react-reveal/Bounce";
+import CV from "../../images/profil/CV.pdf";
 
 /**
  *
@@ -18,10 +19,6 @@ function Competences() {
     ...(competencesGeneral || []),
   ];
    
- const urlPDF = "../../images/profil/CV.pdf";
-
-
-
 
   return (
     <div className="competences_container">
@@ -51,12 +48,11 @@ function Competences() {
             </ul>
           </div>
         </div>
+        <div className="container_button_cv">
+           <a href={CV} download="CV"><button className="buttonCV">Télécharger mon CV</button></a>
+        </div>
+       
       </Bounce>
-      <div className="CV_button">
-        <a href={urlPDF} download="../../images/profil/CV.pdf">
-          Voir le CV
-        </a>
-      </div>
       <div className="slider">
         <div className="slide-track">
           {competencesData.map((competence, index) => {
