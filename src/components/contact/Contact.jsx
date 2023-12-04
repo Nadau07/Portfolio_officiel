@@ -5,6 +5,10 @@ import { useState } from "react";
 import Modal from "./ModaleContact";
 import Roll from "react-reveal/Roll";
 
+
+
+
+
 function Contact() {
   const form = useRef();
   const [isModalOpen, setIsModalOpen] = useState(false);

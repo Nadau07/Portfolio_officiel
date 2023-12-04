@@ -14,13 +14,13 @@ function Presentation() {
         <Bounce left>
           <div className="presentation_p">
             <p>Bonjour !
-            Je suis Noah, originaire de Lot-et-Garonne, et âgé de 32 ans.
+            Je suis Noah, originaire dU Lot-et-Garonne, et âgé de 32 ans.
             <br />
             Mon aventure dans le monde de la conception web a débuté par une
             simple curiosité, à "bricoler" des lignes de code durant mon temps
             libre.
             <br />
-            Cette passion m'a poussé à suivre une formation d'intégrateur web..
+            Cette passion m'a poussé à suivre une formation d'intégrateur web.
             <br />
             <br />
             Je suis convaincu que le travail occupe une place centrale dans nos
@@ -35,7 +35,7 @@ function Presentation() {
             ressentir une satisfaction quotidienne dans mon travail.
             <br />
             N'hésitez pas à explorer mon portfolio pour découvrir certains de
-            mes projets et en apprendre davantage sur mon parcours et mes
+            mes projets et en apprendre d'avantage sur mon parcours et mes
             compétences.
             <br />
             <br />
