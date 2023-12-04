@@ -7,6 +7,7 @@
 Ici se trouve mon portfolio d'Intégrateur Web 🙂 
 
 Je me suis servi de React pour la création 👌. 
+
 Dessus, vous trouverez les projets réalisés durant ma formation 🧑‍💻, ainsi qu'une description de mon profil professionnel (et une petite touche de ma personnalité).
 
 Je précise que ce n'est pas la toute dernière version, il évoluera dans le temps, en même temps que mes compétences.
