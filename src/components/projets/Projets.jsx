@@ -1,8 +1,12 @@
 import "./styles/projets.css";
 import FicheProjet from "./FicheProjet";
-import{useState}from"react";
-//import FicheProjet from "./FicheProjet";
+import { useState } from "react";
 
+/**
+ *
+ * @returns {JSX} : Composant affichant les cards des projets.
+ *
+ */
 
 function Projet(props) {
   const [showModal, setShowModal] = useState(false);

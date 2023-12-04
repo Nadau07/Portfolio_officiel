@@ -1,6 +1,12 @@
 import "./styles/ficheProjet.css";
 import arrow from "../../images/utils/arrow-up-right-from-square-solid.svg";
 
+/**
+ *
+ * @returns {JSX} : Composant affichant la modale description des projets.
+ *
+ */
+
 function FicheProjet(props) {
   const handleCloseClick = () => {
     props.onClose();
@@ -31,13 +37,19 @@ function FicheProjet(props) {
         </ul>
       </div>
       <div className="modal_button">
-      {props.githubLinks.map((githubLink, index) => (
-          <a key={index} href={githubLink} target="_blank" rel="noopener noreferrer">
+        {props.githubLinks.map((githubLink, index) => (
+          <a
+            key={index}
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>
-              Lien GitHub<img src={arrow} alt="arrow" />
+              Lien GitHub
+              <img src={arrow} alt="arrow" />
             </button>
           </a>
-        ))} 
+        ))}
       </div>
     </div>
   );

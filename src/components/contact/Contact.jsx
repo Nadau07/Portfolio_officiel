@@ -4,10 +4,11 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import Modal from "./ModaleContact";
 import Roll from "react-reveal/Roll";
-
-
-
-
+/**
+ *
+ * @returns {JSX} : Composant affichant le formulaire de contact.
+ *
+ */
 
 function Contact() {
   const form = useRef();
@@ -71,7 +72,7 @@ function Contact() {
         </div>
 
         <div>
-        <label htmlFor="message">Votre message:</label>
+          <label htmlFor="message">Votre message:</label>
           <textarea
             id="message"
             name="message"

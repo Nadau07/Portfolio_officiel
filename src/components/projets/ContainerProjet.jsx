@@ -5,7 +5,7 @@ import Jump from "react-reveal/Jump";
 
 /**
  *
- * @returns {JSX} : Le slider des projets.
+ * @returns {JSX} : Le composant affichant la rubrique Projets.
  *
  */
 
@@ -13,7 +13,9 @@ function ContainerProjet(props) {
   return (
     <>
       <Jump>
-        <h2 className="container-projet-title" id="realisations">Mes réalisations:</h2>
+        <h2 className="container-projet-title" id="realisations">
+          Mes réalisations:
+        </h2>
       </Jump>
       <div className="container-projet">
         {DataProjets.map((projet) => (

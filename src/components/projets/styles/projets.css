@@ -1,102 +1,102 @@
 .card {
-    width: 90%;
-    background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s;
-    margin-bottom: 50px;
-    overflow: hidden;
-    font-family:"Montserrat",sans-serif;
-    position:relative;
-    cursor: pointer;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  margin-bottom: 50px;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  cursor: pointer;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 }
 
 .card__thumb {
-    height: 235px;
-    overflow: hidden;
-    background-color: #000;
-    transition: height 0.3s;
+  height: 235px;
+  overflow: hidden;
+  background-color: #000;
+  transition: height 0.3s;
 }
 
 .card__thumb img {
-    display: block;
-    height:250px;
-    opacity: 1;
-    transition: opacity 0.3s, transform 0.3s;
-    transform: scale(1);
-    width: 100%;
-    object-fit: cover;
+  display: block;
+  height: 250px;
+  opacity: 1;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: scale(1);
+  width: 100%;
+  object-fit: cover;
 }
 
 .card:hover .card__thumb img {
-    opacity: 0.6;
-    transform: scale(1.2);
+  opacity: 0.6;
+  transform: scale(1.2);
 }
 
 .card:hover .card__thumb {
-    height: 235px; /* Garder la même hauteur */
+  height: 235px; /* Garder la même hauteur */
 }
 
 .card__body {
-    height: 100px;
-    transition: height 0.3s;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  height: 100px;
+  transition: height 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card_tags {
-    margin-top: 10px;
-  }
-  
-  .tag {
-    display: inline-block;
-    font-size:11px;
-    background-color: red;
-    color:white;
-    padding: 5px 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 15px;
-  }
+  margin-top: 10px;
+}
 
-  .card__title{
-    margin-top:20px;
-    font-weight: 600;
-    font-size:20px;
-  }
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
 
-  .card_button_left,
-  .card_button_right{
-    position:absolute;
-    width: 10%;
-    z-index:1;
-  }
+.card__title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
 
-  .card_button_right{
-    right:0;
-    top:30%;
-  }
+.card_button_left,
+.card_button_right {
+  position: absolute;
+  width: 10%;
+  z-index: 1;
+}
 
-  .card_button_left{
-    left:0;
-    top:30%;
-  }
+.card_button_right {
+  right: 0;
+  top: 30%;
+}
 
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: 999; 
-  }
+.card_button_left {
+  left: 0;
+  top: 30%;
+}
 
-  @media (min-width: 1024px){
-    .card{
-      width: 30%;
-    }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 30%;
   }
+}

@@ -9,19 +9,25 @@ import Contact from "../components/contact/Contact";
 import Footer from "../components/general/Footer";
 import "./style.css";
 
-function Home(){
-    return(
-        <>
-        <Banner/>
-        <Header/>
-        <Presentation/>
-        <GaleriedeProfil/>
-        <Competences/>
-        <ContainerProjet/>
-        <Contact/>
-        <Footer/>
-        </>
-    )
+/**
+ *
+ * @returns {JSX} : Composant affichant la One-Page.
+ *
+ */
+
+function Home() {
+  return (
+    <>
+      <Banner />
+      <Header />
+      <Presentation />
+      <GaleriedeProfil />
+      <Competences />
+      <ContainerProjet />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
-export default Home
+export default Home;

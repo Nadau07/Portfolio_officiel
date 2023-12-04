@@ -1,4 +1,9 @@
 import "./styles/banner.css";
+/**
+ *
+ * @returns {JSX} : Composant affichant la bannière avec les liens de navigation.
+ *
+ */
 
 function Banner() {
   return (
@@ -9,10 +14,19 @@ function Banner() {
 
       <div className="navbar_list">
         <ul>
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#a-propos">Profil</a></li>
-          <li><a href="#realisations">Réalisations</a></li>
-          <li> <a href="#contact">Contact</a></li>
+          <li>
+            <a href="#accueil">Accueil</a>
+          </li>
+          <li>
+            <a href="#a-propos">Profil</a>
+          </li>
+          <li>
+            <a href="#realisations">Réalisations</a>
+          </li>
+          <li>
+            {" "}
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,115 +1,105 @@
-
-
 .navbar_container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
-  z-index: 1; 
+  z-index: 1;
   display: flex;
   box-shadow: 0px 8px 10px -5px rgba(185, 42, 42, 0.051);
 }
 
-.navbar_logo{
+.navbar_logo {
   width: 15%;
 }
 
-
-.logo_p{
+.logo_p {
   font-family: "Shizuru";
   font-size: 40px;
-  margin:0;
-  padding:5px;
+  margin: 0;
+  padding: 5px;
   color: red;
 }
 
-.navbar_list{
+.navbar_list {
   width: 90%;
   position: relative;
 }
 
-
-.navbar_list ul{
-  display:flex;
+.navbar_list ul {
+  display: flex;
   list-style: none;
-  font-family: "Montserrat",  sans-serif; 
+  font-family: "Montserrat", sans-serif;
   justify-content: center;
   position: absolute;
-  top:10px;
-  right:28px;
-  gap:15px;
-
+  top: 10px;
+  right: 28px;
+  gap: 15px;
 }
 
-.navbar_list li{
-  display:flex;
-  justify-content:space-around;
-  font-size:13px;
+.navbar_list li {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
   font-weight: 500;
   cursor: pointer;
 }
 
-.navbar_list li a{
+.navbar_list li a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .navbar_list li:hover {
   line-height: 1.5;
   display: inline;
   background-image: linear-gradient(
-        transparent 50%,
-        white 50%,
-        red 85%,
-        transparent 95%,
-        transparent 100%
-    );
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    animation: animatedBackground 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+    transparent 50%,
+    white 50%,
+    red 85%,
+    transparent 95%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: animatedBackground 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s
+    forwards;
 }
 
 @keyframes animatedBackground {
-    to {
-        background-size: 100% 100%;
-    }
-}
-
-@media screen and (min-width: 768px){
-
-  .navbar_list ul{
-    gap:30px;
-  }
-  .navbar_list li{
-    font-size:18px;
+  to {
+    background-size: 100% 100%;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .navbar_list ul {
+    gap: 30px;
+  }
+  .navbar_list li {
+    font-size: 18px;
+  }
+}
 
-
-
-@media screen and (min-width: 1024px){
-
-  .navbar_container{
+@media screen and (min-width: 1024px) {
+  .navbar_container {
     width: 100%;
   }
 
-  .navbar_list{
+  .navbar_list {
     width: 100%;
   }
 
-  .navbar_list ul{
+  .navbar_list ul {
     display: flex;
-    gap:60px;
-
+    gap: 60px;
   }
-  .navbar_list li{
-    font-size:20px;
+  .navbar_list li {
+    font-size: 20px;
     font-weight: 100;
-  } 
-.navbar_list ul {
-  top:6px;
-  right:59px;
-}
+  }
+  .navbar_list ul {
+    top: 6px;
+    right: 59px;
+  }
 }

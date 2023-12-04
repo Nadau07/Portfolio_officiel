@@ -1,12 +1,16 @@
-import "./styles/footer.css"
+import "./styles/footer.css";
+/**
+ *
+ * @returns {JSX} : Composant affichant le footer.
+ *
+ */
 
-
-function Footer(){
-    return(
-        <div className="footer">
-                <p className="footer_p"> © 2023 Noah Liebert. Tous droits réservés. </p>
-        </div>
-    )
+function Footer() {
+  return (
+    <div className="footer">
+      <p className="footer_p"> © 2023 Noah Liebert. Tous droits réservés. </p>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
