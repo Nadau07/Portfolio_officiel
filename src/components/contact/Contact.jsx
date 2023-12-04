@@ -53,7 +53,7 @@ function Contact() {
         onSubmit={sendEmail}
       >
         <div>
-          <label htmlFor="name">Votre nom:</label>
+          <label htmlFor="name">Votre nom :</label>
           <input
             type="text"
             id="name"
@@ -62,7 +62,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Votre email:</label>
+          <label htmlFor="email">Votre email :</label>
           <input
             type="email"
             id="email"
@@ -72,7 +72,7 @@ function Contact() {
         </div>
 
         <div>
-          <label htmlFor="message">Votre message:</label>
+          <label htmlFor="message">Votre message :</label>
           <textarea
             id="message"
             name="message"
