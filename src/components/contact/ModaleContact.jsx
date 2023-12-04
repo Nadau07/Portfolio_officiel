@@ -12,8 +12,7 @@ function Modal({ isOpen, onClose }) {
   }
 
   return (
-    <div className="container_modal">
-   <div className="modal">
+    <div className="modal">
       <div className="modal_content">
         <h2>Message envoyé !</h2>
         <p>Votre message a été envoyé avec succès.</p>
@@ -22,11 +21,6 @@ function Modal({ isOpen, onClose }) {
         </button>
       </div>
     </div>
-
-
-
-    </div>
- 
   );
 }
 
