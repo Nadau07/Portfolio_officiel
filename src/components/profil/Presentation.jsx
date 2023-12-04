@@ -21,7 +21,7 @@ function Presentation() {
         <Bounce left>
           <div className="presentation_p">
             <p>
-              Bonjour ! Je suis Noah, originaire dU Lot-et-Garonne, et âgé de 32
+              Bonjour !<br/> Je suis Noah, originaire du Lot-et-Garonne, et âgé de 32
               ans.
               <br />
               Mon aventure dans le monde de la conception web a débuté par une
