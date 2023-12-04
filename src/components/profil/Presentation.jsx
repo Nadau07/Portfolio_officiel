@@ -27,7 +27,7 @@ function Presentation() {
               simple curiosité, à "bricoler" des lignes de code durant mon temps
               libre.
               <br />
-              Cette passion m'a poussé à suivre une formation d'intégrateur web.
+              Cette passion m'a poussé à suivre une formation d'intégrateur web chez OpenClassRooms.
               <br />
               <br />
               Je suis convaincu que le travail occupe une place centrale dans

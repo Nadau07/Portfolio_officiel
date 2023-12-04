@@ -17,6 +17,11 @@ function Competences() {
     ...(competencesDev || []),
     ...(competencesGeneral || []),
   ];
+   
+ const urlPDF = "../../images/profil/CV.pdf";
+
+
+
 
   return (
     <div className="competences_container">
@@ -47,6 +52,11 @@ function Competences() {
           </div>
         </div>
       </Bounce>
+      <div className="CV_button">
+        <a href={urlPDF} download="../../images/profil/CV.pdf">
+          Voir le CV
+        </a>
+      </div>
       <div className="slider">
         <div className="slide-track">
           {competencesData.map((competence, index) => {
