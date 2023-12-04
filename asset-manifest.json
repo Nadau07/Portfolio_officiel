@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio_officiel/static/css/main.8be99c18.css",
-    "main.js": "/Portfolio_officiel/static/js/main.581e5dcb.js",
+    "main.css": "/Portfolio_officiel/static/css/main.35330ff9.css",
+    "main.js": "/Portfolio_officiel/static/js/main.12c26eeb.js",
     "static/js/787.1303a018.chunk.js": "/Portfolio_officiel/static/js/787.1303a018.chunk.js",
     "static/media/nina_carducci_photographe.webp": "/Portfolio_officiel/static/media/nina_carducci_photographe.8c3b5ea892cf9f1c9b4b.webp",
+    "static/media/CV.pdf": "/Portfolio_officiel/static/media/CV.9a66e8e4bf4c0170ff66.pdf",
     "static/media/photoportrait1.webp": "/Portfolio_officiel/static/media/photoportrait1.86927b02257ae9848ad1.webp",
     "static/media/photoportrait2.webp": "/Portfolio_officiel/static/media/photoportrait2.37e08f62bbcae79adbf3.webp",
     "static/media/portrait3.webp": "/Portfolio_officiel/static/media/portrait3.3a0d9e476706f738ed40.webp",
@@ -30,15 +31,16 @@
     "static/media/arrow-up-right-from-square-solid.svg": "/Portfolio_officiel/static/media/arrow-up-right-from-square-solid.314cd2c3f51b65af487957234cc79111.svg",
     "static/media/laptop-medical-solid.svg": "/Portfolio_officiel/static/media/laptop-medical-solid.24dbdc268955761a2b18dcab418db630.svg",
     "static/media/server-solid.svg": "/Portfolio_officiel/static/media/server-solid.b83b807c436521ce5c0a17425969a051.svg",
+    "static/media/circle-xmark-regular.svg": "/Portfolio_officiel/static/media/circle-xmark-regular.a65363365347edc3d79a967acec81d52.svg",
     "static/media/css3-alt.svg": "/Portfolio_officiel/static/media/css3-alt.b1e28fae8ef258529f26a86472c095d7.svg",
     "static/media/windows.svg": "/Portfolio_officiel/static/media/windows.289fec5228a8f4def70e497da338c484.svg",
     "static/media/html5.svg": "/Portfolio_officiel/static/media/html5.e5768048ac913d79280b1bb354cf173d.svg",
-    "main.8be99c18.css.map": "/Portfolio_officiel/static/css/main.8be99c18.css.map",
-    "main.581e5dcb.js.map": "/Portfolio_officiel/static/js/main.581e5dcb.js.map",
+    "main.35330ff9.css.map": "/Portfolio_officiel/static/css/main.35330ff9.css.map",
+    "main.12c26eeb.js.map": "/Portfolio_officiel/static/js/main.12c26eeb.js.map",
     "787.1303a018.chunk.js.map": "/Portfolio_officiel/static/js/787.1303a018.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8be99c18.css",
-    "static/js/main.581e5dcb.js"
+    "static/css/main.35330ff9.css",
+    "static/js/main.12c26eeb.js"
   ]
 }
