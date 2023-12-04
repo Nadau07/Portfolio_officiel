@@ -14,7 +14,7 @@ function ContainerProjet(props) {
     <>
       <Jump>
         <h2 className="container-projet-title" id="realisations">
-          Mes réalisations:
+          Mes réalisations :
         </h2>
       </Jump>
       <div className="container-projet">

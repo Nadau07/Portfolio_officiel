@@ -57,7 +57,7 @@ function GaleriedeProfil() {
         )}
         <div className={`lesplus_list ${listVisible ? "visible" : "hidden"}`}>
           <p>
-            Je suis japanophile, et je prends des cours de langue Japonaise.
+            Je suis japonophile et je prends des cours de langue Japonaise.
           </p>
           <p>
             Amoureux des animaux, ma passion réside dans le bien-être de nos

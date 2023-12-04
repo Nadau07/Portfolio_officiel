@@ -21,7 +21,7 @@ function Competences() {
   return (
     <div className="competences_container">
       <Bounce right>
-        <h2 className="competences_title">Mes compétences:</h2>
+        <h2 className="competences_title">Mes compétences :</h2>
         <div className="competences">
           <div className="competences_developpement">
             <h3>Développement:</h3>
