@@ -9,20 +9,15 @@
   box-shadow: 0px 8px 10px -5px rgba(185, 42, 42, 0.051);
 }
 
-.navbar_logo {
-  width: 15%;
-}
-
 .logo_p {
   font-family: "Shizuru";
   font-size: 40px;
   margin: 0;
-  padding: 5px;
   color: red;
 }
 
 .navbar_list {
-  width: 90%;
+  width: 80%;
   position: relative;
 }
 
@@ -79,17 +74,18 @@
   .navbar_list li {
     font-size: 18px;
   }
+
+  .navbar_list{
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .navbar_container {
+ 
+
+  .navbar_container{
     width: 100%;
   }
-
-  .navbar_list {
-    width: 100%;
-  }
-
   .navbar_list ul {
     display: flex;
     gap: 60px;

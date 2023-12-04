@@ -1,12 +1,12 @@
 .modal {
-  width: 50%;
+  width: 80%;
   height: 20%;
   position: relative;
 }
 
 .modal_content {
   bottom: 110px;
-  right:80px;
+  right:8px;
   position: absolute;
   z-index: 1;
   display: flex;
@@ -29,8 +29,28 @@
   font-family: "Montserrat", sans-serif;
 }
 .modal_content_button {
-  width: 45%;
+  width: 26%;
+  padding:5px;
   border-bottom: 4px solid red;
   border-top: 4px solid red;
   font-weight: 800;
+}
+
+@media screen and (min-width: 768px){
+  .modal_content{
+    right:170px;
+  }
+
+  .modal_content_button{
+    width: 30%;
+  }
+}
+@media (min-width: 1024px) {
+  .modal_content{
+    right:261px;
+  }
+  
+  .modal_content_button{
+    width: 15%;
+  }
 }
