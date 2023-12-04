@@ -26,8 +26,10 @@ Je précise que ce n'est pas la toute dernière version, il évoluera dans le te
 ## Contact :
 
 ✉️ Adresse e-mail: noah.dev7@gmail.com
-🔵 [Lien vers mon profil LinkedIn](https://www.linkedin.com/in/noah-liebert-13a96229a/)
-💻[Lien vers mon portfolio]([https://nadau07.github.io/Portfolio_officiel/)
+
+🔵 [Lien vers mon profil LinkedIn](https://www.linkedin.com/in/noah-liebert-13a96229a/),
+
+💻[Lien vers mon portfolio](https://nadau07.github.io/Portfolio_officiel/)
 
 Merci pour votre visite 😀
 
