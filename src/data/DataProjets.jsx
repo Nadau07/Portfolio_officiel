@@ -87,9 +87,9 @@ export const DataProjets = [
     description:
       "Implémentez le front-end d'une application bancaire avec React.",
     scenario:
-      "Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Milla, la cheffe de projet, me demande de creer l'application web complète et responsive avec React. Aussi, elle me demande aussi d'utiliser Redux pour gérer le state de l'ensemble de l'application.",
+      "Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Milla, la cheffe de projet, me demande de creer l'application web complète et responsive avec React. Aussi, elle me demande d'utiliser Redux pour gérer le state de l'ensemble de l'application.",
     objectif: [
-      "Afficher les données du back end sur l'interface via des Appel API ;",
+      "Afficher les données du back end sur l'interface via des Appels API ;",
       "Configurer des routes API pour la communication client/serveur ;",
       "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.",
     ],
