@@ -74,6 +74,13 @@
   justify-content: center;
 }
 
+.error-message{
+  font-size:12px;
+  margin-top:0;
+  color:red;
+  font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
   .body_container_contact_form {
     width: 60%;
@@ -108,4 +115,6 @@
   .body_container_contact_form_button:hover {
     width: 22%;
   }
+
+
 }

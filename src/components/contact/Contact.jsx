@@ -1,7 +1,7 @@
 import "./styles/contact.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "./ModaleContact";
 import Roll from "react-reveal/Roll";
 /**
@@ -9,13 +9,29 @@ import Roll from "react-reveal/Roll";
  * @returns {JSX} : Composant affichant le formulaire de contact.
  *
  */
+// ...
 
-function Contact() {
+const Contact = () => {
   const form = useRef();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [nameError, setNameError] = useState('');
+  const [emailError, setEmailError] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!form.current.user_name.value.trim()) {
+      setNameError('Veuillez saisir votre nom.');
+      return;
+    }
+
+    if (!form.current.user_email.value.trim()) {
+      setEmailError('Veuillez saisir votre e-mail.');
+      return;
+    }
+
+    setNameError('');
+    setEmailError('');
 
     emailjs
       .sendForm(
@@ -35,12 +51,18 @@ function Contact() {
         }
       );
   };
+
+  useEffect(() => {
+    setNameError('');
+    setEmailError('');
+  }, []);
+
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
   return (
     <div className="body_container_contact">
-      {" "}
       <Roll left>
         <h2 className="body_container_contact_title" id="contact">
           Mon profil vous intéresse ? <br />
@@ -52,7 +74,7 @@ function Contact() {
         ref={form}
         onSubmit={sendEmail}
       >
-        <div>
+        <div className={`form-group ${nameError ? 'has-error' : ''}`}>
           <label htmlFor="name">Votre nom :</label>
           <input
             type="text"
@@ -60,8 +82,9 @@ function Contact() {
             name="user_name"
             className="body_container_contact_form_input"
           />
+          <p className="error-message">{nameError}</p>
         </div>
-        <div>
+        <div className={`form-group ${emailError ? 'has-error' : ''}`}>
           <label htmlFor="email">Votre email :</label>
           <input
             type="email"
@@ -69,6 +92,7 @@ function Contact() {
             name="user_email"
             className="body_container_contact_form_input"
           />
+          <p className="error-message">{emailError}</p>
         </div>
 
         <div>
