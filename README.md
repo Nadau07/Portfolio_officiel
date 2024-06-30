@@ -4,7 +4,7 @@
 
 ## Bonjour ! 👋
 
-Ici se trouve mon portfolio d'Intégrateur Web 🙂 
+Ici se trouve mon portfolio d'Informaticien / intégrateur Web 🙂 
 
 Je me suis servi de React pour la création 👌. 
 
