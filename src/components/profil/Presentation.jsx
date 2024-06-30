@@ -23,7 +23,7 @@ function Presentation() {
             <p>
               Bonjour !<br/> Je suis Noah, j'ai 32 ans et je suis originaire du Lot-et-Garonne.
               <br />
-              Je suis avant tout, un passionné d'informatique, et depuis des années, je monte, démonte, remonte des ordinateurs, bref le hardware c'est mon truc !
+              Je suis avant tout un passionné d'informatique et depuis des années je monte, démonte, remonte des ordinateurs, bref le hardware c'est mon truc !
               <br />
               Mon aventure dans le monde de la conception web a débuté par une
               simple curiosité, à "bricoler" des lignes de code durant mon temps
