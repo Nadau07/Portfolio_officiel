@@ -31,7 +31,7 @@ function Header() {
           <h1>Noah Liebert</h1>
         </Zoom>
         <RubberBand>
-          <p>Intégrateur Web</p>
+          <p>Informaticien / Intégrateur Web</p>
         </RubberBand>
 
         <div className="icons_reseaux">
