@@ -23,11 +23,13 @@ function Presentation() {
             <p>
               Bonjour !<br/> Je suis Noah, j'ai 32 ans et je suis originaire du Lot-et-Garonne.
               <br />
+              Je suis avant tout, un passionné d'informatique, et depuis des années, je monte, démonte, remonte des ordinateurs, bref le hardware c'est mon truc !
+              <br />
               Mon aventure dans le monde de la conception web a débuté par une
               simple curiosité, à "bricoler" des lignes de code durant mon temps
               libre.
               <br />
-              Cette passion m'a poussé à suivre une formation d'intégrateur web chez OpenClassRooms.
+              Cette curiosité m'a poussé à suivre une formation d'intégrateur web.
               <br />
               <br />
               Je suis convaincu que le travail occupe une place centrale dans
@@ -38,7 +40,7 @@ function Presentation() {
               <br />
               C'est pourquoi aujourd'hui, je m'efforce de trouver une
               entreprise qui me donnera l'opportunité de poursuivre ma carrière
-              dans le développement web. <br />
+              dans l'informatique. <br />
               Mon but ultime est d'atteindre une stabilité professionnelle et de
               ressentir une satisfaction quotidienne dans mon travail.
               <br />
