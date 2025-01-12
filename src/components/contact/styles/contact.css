@@ -23,9 +23,9 @@
 }
 .body_container_contact_form_input:focus {
   color: black;
-  caret-color: red;
-  outline-color: red;
-  box-shadow: -3px -3px 15px red;
+  caret-color: green;
+  outline-color: green;
+  box-shadow: -3px -3px 15px green;
 }
 .body_container_contact_form_input_message {
   width: 95%;
@@ -37,9 +37,9 @@
 }
 .body_container_contact_form_input_message:focus {
   color: black;
-  caret-color: red;
-  outline-color: red;
-  box-shadow: -3px -3px 15px red;
+  caret-color: green;
+  outline-color: green;
+  box-shadow: -3px -3px 15px green;
 }
 
 .body_container_contact_button {
@@ -52,7 +52,7 @@
   padding: 10px;
   width: 30%;
   cursor: pointer;
-  background-image: linear-gradient(to right, #ff0000, #ff6666, #ff9999);
+  background-image: linear-gradient(to right, green, #14da46b4, #60da47fb);
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
@@ -77,7 +77,7 @@
 .error-message{
   font-size:12px;
   margin-top:0;
-  color:red;
+  color:green;
   font-style: italic;
 }
 

@@ -13,7 +13,7 @@
   font-family: "Shizuru";
   font-size: 40px;
   margin: 0;
-  color: red;
+  color: green;
 }
 
 .navbar_logo{
@@ -55,7 +55,7 @@
   background-image: linear-gradient(
     transparent 50%,
     white 50%,
-    red 85%,
+    green 85%,
     transparent 95%,
     transparent 100%
   );

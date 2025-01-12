@@ -1,5 +1,5 @@
 import "./styles/header.css";
-import HeaderImg from "../../images/profil/maneki-neko.webp";
+import HeaderImg from "../../images/profil/banner.webp";
 import iconGithub from "../../images/icons_reseaux/github.svg";
 import iconLinkedIn from "../../images/icons_reseaux/linkedin.svg";
 import RubberBand from "react-reveal/RubberBand";

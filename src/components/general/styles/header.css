@@ -5,7 +5,7 @@
 
 .container_header_image {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   object-fit: cover;
   opacity: 0.4;
 }
